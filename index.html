@@ -5,14 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- temporary style - MOVE LATER -->
+    <style>
+        #hamburger {
+            position: relative;
+            display: block;
+            width: 50px;
+            height: 35px;
+            cursor: pointer;
+
+            /* reset box style */
+            appearance: none;
+            background: none;
+            outline: none;
+            border: none;
+        }
+
+        #hamburger .bar, #hamburger:after, #hamburger:before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 5px;
+            background-color: rgb(143, 29, 29);
+            margin: 6px 0px;
+            transition: 0.4s;
+        }
+    </style>
 </head>
 <body>
     <!-- HEADER-->
     <header>
         <!-- hamburger menu -->
-        <nav>
-
-        </nav>
+        <button id="hamburger">
+            <div class="bar"></div>
+        </button>
     </header>
 
     <!-- MAIN CONTENT -->
