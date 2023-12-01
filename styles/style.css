@@ -1,0 +1,101 @@
+      
+      
+      /* change the font face */
+        @font-face {
+            font-family: 'avenir';
+            src: url(./font/AvenirLTStd-Book.otf);
+            font-style: normal;
+            font-weight: 100;
+        }
+
+        body {
+            font-family: Verdana, 'avenir', Geneva, Tahoma, sans-serif;
+        }
+
+        /* HAMBURGER NAV */
+        /* ham style */
+        .hamburger {
+            position: relative;
+            display: block;
+            width: 50px;
+            cursor: pointer;
+            z-index: 100;
+
+            /* reset default style */
+            appearance: none;
+            background: none;
+            outline: none;
+            border: none;
+        }
+
+        /* creating bars */
+        .hamburger .bar, .hamburger:after, .hamburger:before {
+            content: '';
+            background-color: black;
+            display: block;
+            width: 100%;
+            height: 5px;
+            margin: 6px 0px;
+            transition: 0.4s;
+            border-radius: 50px;
+        }
+
+        /* changing nav to an X */
+        .hamburger.is-active:before {
+            transform: rotate(-45deg) translate(-8px, 6px);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .hamburger.is-active:after {
+            transform: rotate(45deg) translate(-8px, -9px);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .hamburger.is-active .bar {
+            opacity: 0%;
+        }
+        
+        /* hamburger nav menu creation */
+        .mobile-nav {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            min-height: 100vh;
+            display: block;
+            z-index: 98;
+            background-color: #234876;
+            padding-top: 120px;
+            transition: 0.4s;
+        }
+
+        .mobile-nav.is-active {
+            left: 0%;
+        }
+
+       .mobile-nav  a {
+            display: block;
+            text-align: center;
+            width: 100%;
+            max-width: 200px;
+            padding: 12px 16px;
+            margin: 0 auto 16px;
+            background-color: rgb(33, 67, 108);
+
+            color: white;
+            text-decoration: none;
+        }
+
+        /* hover and click styles */
+        .mobile-nav  a:hover {
+            background-color: #2c5b95;
+            transform: scale(1.1);
+        }
+
+        .mobile-nav  a:active {
+            color: rgb(190, 196, 201);
+            background-color: #1c395c;
+            transform: scale(0.9);
+        }
