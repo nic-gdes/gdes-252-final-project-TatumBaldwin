@@ -12,9 +12,20 @@
             font-family: Verdana, 'avenir', Geneva, Tahoma, sans-serif;
         }
 
-        /* HAMBURGER NAV */
+
+        /* NAVIGATION BAR */
+
+        /* container */
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+        }
+
         /* ham style */
         .hamburger {
+            right: 0;
             position: relative;
             display: block;
             width: 50px;
@@ -61,7 +72,7 @@
             display: flex;
             flex-direction: column;
             top: 0;
-            left: -100%;
+            left: 100%;
             width: 50%;
             min-height: 100vh;
             display: block;
@@ -72,7 +83,7 @@
         }
 
         .mobile-nav.is-active {
-            left: 0%;
+            left: 50%;
         }
 
        .mobile-nav  a {
