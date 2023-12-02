@@ -9,3 +9,11 @@ nav_btn.addEventListener('click', function () {
     nav_btn.classList.toggle('is-active');
     nav_menu.classList.toggle('is-active');
 })
+
+
+
+
+
+//CALCULATOR
+
+//

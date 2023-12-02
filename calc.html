@@ -38,15 +38,25 @@
             <h1>InnoCalc - Futuristic Solution Generator</h1>
         </section>
 
-        <!-- calculator -->
-        <section>
-
-        </section>
-
         <!-- welcome -->
         <section>
             <h2>Welcome to InnoCalc!</h2>
             <p>InnoCalc is an innovative tool designed to tackle everyday challenges through a creative lens. Although it specializes in a select range of conversions, it brings an imaginative touch to these essential transformations.</p>
+        </section>
+
+        <!-- calculator -->
+        <section>
+            <h1>Unit Conveter</h1>
+            <div class="calc-container">
+                <input type="number" id="inputValue" placeholder="Enter value" oninput="convert ()">
+
+                <p id="results"></p>
+                <select name="unit-options" id="fromUnit" onchange="convert ()" >
+                    <option value="feet">Feet (ft) to Miles (mi)</option>
+                    <option value="fahrenheit">Feahrenheit (F) to Celsius (C)</option>
+                    <option value="inches">Inches (in) to Centimeters (cm)</option>
+                </select>
+            </div>
         </section>
 
         <!-- functionality -->
