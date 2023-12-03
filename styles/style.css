@@ -6,11 +6,16 @@
             src: url(./font/AvenirLTStd-Book.otf);
             font-style: normal;
             font-weight: 100;
+           
         }
 
         body {
-            font-family: Verdana, 'avenir', Geneva, Tahoma, sans-serif;
+            font-family: Verdana, 'avenir', Geneva, Tahoma, sans-serif; 
+            color: #333333;
         }
+
+        /* other font styles */
+
 
 
         /* NAVIGATION BAR */
@@ -42,7 +47,7 @@
         /* creating bars */
         .hamburger .bar, .hamburger:after, .hamburger:before {
             content: '';
-            background-color: black;
+            background-color: #333333;
             display: block;
             width: 100%;
             height: 5px;
