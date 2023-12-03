@@ -129,6 +129,35 @@
             height: 3rem;
         }
 
+        .calc-img {
+            height: 7rem;
+        }
+
+        /* gear animation */
+        .gear-animate {
+            background-color: black;
+            margin: 0 auto;
+            width: 9rem;
+            height: 8rem;
+        }
+
+        .gear1 {
+            display: block;
+            position: absolute;
+            margin: 0 auto;
+            right: 13.9rem;
+            top: 10rem;
+        }
+
+        .gear2 {
+            display: block;
+            margin: 0 auto;
+            position: absolute;
+            top: 8.2rem;
+
+        }
+
+
         /* font styles */
         p {
             text-indent: 1rem;
