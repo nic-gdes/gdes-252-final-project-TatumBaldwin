@@ -135,7 +135,6 @@
 
         /* gear animation */
         .gear-animate {
-            background-color: black;
             margin: 0 auto;
             width: 9rem;
             height: 8rem;
@@ -143,10 +142,23 @@
 
         .gear1 {
             display: block;
-            position: absolute;
+            position:relative;
             margin: 0 auto;
-            right: 13.9rem;
-            top: 10rem;
+            right: -1.4rem;
+            top: 2.5rem;
+            animation-name: rotate;
+            animation-duration: 3s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count: infinite; 
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(359deg);
+              }
         }
 
         .gear2 {
@@ -154,7 +166,10 @@
             margin: 0 auto;
             position: absolute;
             top: 8.2rem;
-
+            animation-name: rotate;
+            animation-duration: 3s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count: infinite; 
         }
 
 
