@@ -12,10 +12,26 @@
         body {
             font-family: Verdana, 'avenir', Geneva, Tahoma, sans-serif; 
             color: #333333;
+            font-size: 12pt;
         }
 
         /* other font styles */
+        p {
+            text-indent: 1rem;
+        }
+        h1, .calc-cap {
+            font-size: 1.3rem;
+            text-align: center;
+        }
 
+        h2 {
+            font-size: 1rem;
+        }
+
+        dt {
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
 
 
         /* NAVIGATION BAR */
