@@ -135,7 +135,7 @@
 
         /* gear animation */
         .gear-animate {
-            margin: 0 auto;
+            margin: 0 auto 0;
             width: 9rem;
             height: 8rem;
         }
@@ -203,7 +203,7 @@
         
       /* buttons */
   
-        .cta-btn {
+        .cta-btn, .calc-btn {
             text-decoration: none;
             color: white;
             background-color: #234876;
@@ -211,7 +211,7 @@
             border-radius: 10px;
         }
 
-        .btn-contain {
+        .btn-contain, .calc-btn-contain {
             margin: 1.5rem;
         }
 
@@ -231,7 +231,36 @@
         }
 
         .orange-container {
-            background-color: #FFA500 ;
+            background-color: rgb(2555, 255, 255, 0.5);
+            border: 7px solid #FFA500 ;
             border-radius: 30px ;
             padding: 1rem;
+        }
+
+        /* calculator style */
+
+        .calc-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .calc-btn-contain {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 20rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+
+        .calc-btn-contain a {
+            font-size: 0.9rem
+        }
+
+        .results {
+            font-size: 25pt;
+            margin: 0 auto;
+            margin-bottom: 3rem;
+            padding: 1rem;
+            border: 3px solid orange;
         }

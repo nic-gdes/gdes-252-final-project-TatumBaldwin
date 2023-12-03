@@ -41,11 +41,13 @@
         <section class="grid-item1">
             <div class="calc-container">
                 
+                <span class="results" id="result"></span>
                 <input type="number" id="userInput" placeholder="value">
-                <button onclick="convertFahr ()">Fahrenheit (F) to Celsius (C)</button>
-                <button onclick="convertFeet ()">Feet (ft) to Miles (mi)</button>
-                <button onclick="convertInch ()">Inches (in) to Centimeters (cm)</button>
-                <span id="result"></span>
+                <div class="calc-btn-contain">
+                    <a class="calc-btn" onclick="convertFahr ()">Fahrenheit (F) to Celsius (C)</a>
+                    <a class="calc-btn" onclick="convertFeet ()">Feet (ft) to Miles (mi)</a>
+                    <a class="calc-btn" onclick="convertInch ()">Inches (in) to Centimeters (cm)</a>
+                </div>
 
             </div>
         </section>
