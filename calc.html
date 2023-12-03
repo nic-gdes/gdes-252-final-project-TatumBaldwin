@@ -48,14 +48,13 @@
         <section>
             <h1>Unit Conveter</h1>
             <div class="calc-container">
-                <input type="number" id="inputValue" placeholder="Enter value" oninput="convert ()">
+                
+                <input type="number" id="userInput" placeholder="value">
+                <button onclick="convertFahr ()">Fahrenheit (F) to Celsius (C)</button>
+                <button onclick="convertFeet ()">Feet (ft) to Miles (mi)</button>
+                <button onclick="convertInch ()">Inches (in) to Centimeters (cm)</button>
+                <span id="result"></span>
 
-                <p id="results"></p>
-                <select name="unit-options" id="fromUnit" onchange="convert ()" >
-                    <option value="feet">Feet (ft) to Miles (mi)</option>
-                    <option value="fahrenheit">Feahrenheit (F) to Celsius (C)</option>
-                    <option value="inches">Inches (in) to Centimeters (cm)</option>
-                </select>
             </div>
         </section>
 
