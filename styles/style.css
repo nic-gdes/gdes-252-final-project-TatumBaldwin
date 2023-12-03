@@ -187,6 +187,7 @@
         h2 {
             font-size: 1.2rem;
             color: #234876;
+            margin-bottom: 1rem;
         }
 
         dt {
@@ -263,4 +264,16 @@
             margin-bottom: 3rem;
             padding: 1rem;
             border: 3px solid orange;
+        }
+
+
+        /* contact page */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #333333;
         }
