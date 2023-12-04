@@ -296,7 +296,43 @@
         }
         .contact-info a {
             text-decoration: none;
-            color: #333333;
+            color:#FFA500;
+        }
+
+        /* phone animation */
+
+        .phone {
+            height: 6rem;
+        }
+
+        .phone-animate {
+            animation-name: ring;
+            animation-duration: 3s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count: infinite; 
+        }
+
+        @keyframes ring {
+            0% {
+                transform: rotate(0);
+            }
+
+            25% {
+                transform: rotate(15deg);
+            }
+
+            50% {
+                transform: rotate(0)
+            }
+
+            75% {
+                transform: rotate(15deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+
         }
 
         /* footer */
@@ -330,6 +366,7 @@
             display: flex;
             justify-content: space-between;
             margin: 0 auto;
+            width: 30rem;
         }
 
         .links a {
