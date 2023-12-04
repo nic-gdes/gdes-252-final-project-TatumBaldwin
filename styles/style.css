@@ -279,12 +279,42 @@
             font-size: 0.9rem
         }
 
+        .calc-btn-contain a:hover {
+            background-color: #1c395c;
+        }
+
+        .calc-btn-contain a:active {
+            background-color: #13263d;
+        }
+
         .results {
             font-size: 25pt;
             margin: 0 auto;
             margin-bottom: 3rem;
             padding: 1rem;
             border: 3px solid orange;
+        }
+
+        /* math animation */
+
+
+        .math {
+            height: 8rem;
+            animation-name: space;
+            animation-duration: 3s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count: 20; 
+            margin: -40px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        @keyframes space {
+            0% {opacity: 1;}
+
+            50% {opacity: 0;}
+
+            100% {transform: scale(1.4);}
         }
 
 
@@ -297,6 +327,14 @@
         .contact-info a {
             text-decoration: none;
             color:#FFA500;
+        }
+
+        .contact-info a:hover {
+            color: #1c395c;
+        }
+
+        .contact-info a:active {
+            color: #0a1521;
         }
 
         /* phone animation */
