@@ -129,8 +129,18 @@
             height: 3rem;
         }
 
+        /* other images */
+
         .calc-img {
             height: 7rem;
+        }
+
+        .hands {
+            height: 10rem;
+        }
+
+        .brain {
+            height: 10rem;
         }
 
         /* gear animation */
@@ -197,7 +207,7 @@
 
         dd {
             text-indent: 1rem;
-            margin: 0;
+            margin: 1rem;
         }        
 
    
@@ -214,6 +224,17 @@
 
         .btn-contain, .calc-btn-contain {
             margin: 1.5rem;
+        }
+
+        .btn-contain a:hover {
+            background-color: #69809d;
+            transform: scale(1.1);
+        }
+
+        .btn-contain  a:active {
+            color: rgb(190, 196, 201);
+            background-color: #1c395c;
+            transform: scale(0.9);
         }
 
         /* grid/flex */
@@ -276,4 +297,59 @@
         .contact-info a {
             text-decoration: none;
             color: #333333;
+        }
+
+        /* footer */
+        .footer {
+            position:absolute;
+            margin-top: 2rem;
+            background-color: #FFA500;
+            width: 100vw;
+            height: 12rem;
+            right: 0;
+            left: 0;
+        }
+
+        .calc-note {
+            max-width: 500px;
+            font-size: 0.8rem;
+            font-style: italic;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 3rem;
+        }
+
+        .logo {
+            display: block;
+            height: 3rem;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+        .links a {
+            text-decoration: none;
+            color:white;
+            text-align: center;
+            width: 100px;
+            padding: 12px 16px;
+            margin: 0 auto 16px;
+            border-radius: 10px;
+            background-color: rgb(33, 67, 108);
+        }
+
+        .links a:hover {
+            background-color: #69809d;
+            transform: scale(1.1);
+        }
+
+        .links  a:active {
+            color: rgb(190, 196, 201);
+            background-color: #1c395c;
+            transform: scale(0.9);
         }
