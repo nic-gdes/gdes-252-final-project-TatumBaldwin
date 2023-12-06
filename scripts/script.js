@@ -54,3 +54,14 @@ function convertInch () {
     //display the number
     document.getElementById('result').innerText = centimeters + " cm";
 }
+
+//Dark and light mode
+
+
+
+id="change-lighting-mode"
+
+.addEventListener('click', function () {
+    nav_btn.classList.toggle('is-active');
+    nav_menu.classList.toggle('is-active');
+})
