@@ -149,8 +149,8 @@
             height: 10rem;
         }
 
-        /* ALL ANIMATIONS */
 
+        /* ALL ANIMATIONS */
 
         /* gear animation */
         .gear-animate {
@@ -305,6 +305,7 @@
         }
 
         /* grid */
+
         section {
             width: 90%;
             margin: 0 auto;
@@ -344,7 +345,9 @@
             padding: 1rem;
         }
 
+
         /* calculator style */
+
         .calc-container {
             display: flex;
             flex-direction: column;
@@ -381,6 +384,7 @@
 
 
         /* contact page */
+
         .contact-info {
             display: flex;
             flex-direction: column;
@@ -401,6 +405,7 @@
 
 
         /* footer */
+        
         .footer {
             position:absolute;
             margin-top: 2rem;
