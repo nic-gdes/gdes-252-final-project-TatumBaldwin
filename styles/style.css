@@ -15,6 +15,8 @@
             font-size: 12pt;
         }
 
+
+
         /* NAVIGATION BAR */
 
         /* margins */
@@ -28,6 +30,10 @@
             flex-direction: row;
             justify-content: space-between;
             align-content: center;
+        }
+
+        .nav-color {
+            background-color: rgb(2555, 255, 255, 0.5);
         }
 
         /* ham style */
@@ -396,7 +402,7 @@
 
         /* footer */
         .footer {
-            position:relative;
+            position:absolute;
             margin-top: 2rem;
             background-color: #FFA500;
             width: 100vw;
@@ -456,19 +462,20 @@
 
         /* JAVASCRIPT DARK/LIGHT MODE */
 
-        .body-dark {
-            background-color: rgb(47, 43, 68);
-        }
-
-        .text-dark {
+        .body {
+            background-color: rgb(2, 2, 3);
             color: white;
         }
 
-        .nav-dark {
+        .body h1, .body h2, .body dl {
+            color: white;
+        }
+
+        .body footer {
             background-color: rgb(2555, 255, 255, 0.5);
         }
 
-  
+ 
 
 
 
