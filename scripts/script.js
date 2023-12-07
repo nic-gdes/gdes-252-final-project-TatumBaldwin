@@ -55,13 +55,44 @@ function convertInch () {
     document.getElementById('result').innerText = centimeters + " cm";
 }
 
+
+
+
 //Dark and light mode
 
 
+//target the button
+const darkMode = document.querySelector('.dark-light');
+//target the body
+const body = document.querySelector('#change-lighting');
+//target the text
+const text = document.querySelectorAll('p');
+const text2 = document.querySelectorAll('dl');
+//target nav
+const nav = document.querySelector('.flex-row');
+//target footer
+const footer = document.querySelector('.footer');
 
-id="change-lighting-mode"
+darkMode.addEventListener('click', function () {
 
-.addEventListener('click', function () {
-    nav_btn.classList.toggle('is-active');
-    nav_menu.classList.toggle('is-active');
+    //change nav color 
+    nav.classList.toggle('nav-dark');
+
+    //change background color
+    body.classList.toggle('body-dark');
+
+    //change footer color
+    footer.classList.toggle('footer-dark');
+
+    //change text color
+    text[0].classList.toggle('text-dark');
+    text[1].classList.toggle('text-dark');
+    text[2].classList.toggle('text-dark');
+    text[3].classList.toggle('text-dark');
+    text[4].classList.toggle('text-dark');
+    text[5].classList.toggle('text-dark');
+
+    //change dl color
+    text2[0].classList.toggle('text-dark');
+
 })
