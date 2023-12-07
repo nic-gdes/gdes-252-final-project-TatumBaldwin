@@ -1,4 +1,6 @@
-// make hamburger menu icon turn into X and expand menu
+
+
+// HAMBURGER MENU
 
 //grab the button and menu block
 const nav_btn = document.querySelector('.hamburger');
@@ -31,6 +33,7 @@ function convertFahr () {
 
 // Convert Feet (ft) to Miles (mi)
 function convertFeet () {
+
     //fetch value from input (parsInt makes the string a number)
     const feet = parseInt(document.querySelector('#userInput').value);
 
@@ -44,6 +47,7 @@ function convertFeet () {
 
 // Convert Inches (in) to Centimeters (cm)
 function convertInch () {
+
     //fetch value from input (parsInt makes the string a number)
     const inch = parseInt(document.querySelector('#userInput').value);
 
@@ -63,6 +67,7 @@ function convertInch () {
 
 //target the button
 const darkMode = document.querySelector('.dark-light');
+
 //target the body
 const body = document.querySelector('#change-lighting');
 
